@@ -95,6 +95,11 @@ body {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+.header-list-items:hover, .header-list-items:focus {
+  color: #404bbf;
+}
 .header-list-items.hover::after {
   content: "";
   width: 100%;
@@ -104,10 +109,6 @@ body {
   bottom: -1px;
   background-color: #404bbf;
   border-radius: 2px;
-}
-
-.header-list-items:hover, .header-list-items:focus {
-  color: #404bbf;
 }
 .hover {
   color: #404bbf;
