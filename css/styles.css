@@ -106,8 +106,7 @@ body {
   border-radius: 2px;
 }
 
-.header-list-items:hover,
-.header-list-items:focus {
+.header-list-items:hover, .header-list-items:focus {
   color: #404bbf;
 }
 .hover {
@@ -144,7 +143,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/office.jpg);
+    url(../images/background-section1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
