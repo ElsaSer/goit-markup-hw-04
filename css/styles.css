@@ -104,8 +104,7 @@ ul {
 .link:hover,
 .link:focus,
 .contacts-us .link:hover,
-.contacts-us .link:focus,
-.active {
+.contacts-us .link:focus{
   color: #404bbf;
 }
 .top-menu-item .link:hover::after{
