@@ -108,8 +108,7 @@ ul {
 .active {
   color: #404bbf;
 }
-.top-menu-item .link:hover::after,
-.active::after {
+.top-menu-item .link:hover::after{
   content: "";
   height: 4px;
   width: 100%;
