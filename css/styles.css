@@ -30,6 +30,7 @@ ul {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -73,12 +74,11 @@ ul {
 }
 .contacts-us {
   align-items: flex-end;
+  font-style: normal;
 }
 .top-menu {
   display: flex;
   gap: 40px;
-}
-.top-menu-item {
 }
 
 .logo-footer-part {
@@ -118,9 +118,7 @@ ul {
   left: 0;
   bottom: -1px;
 }
-.contacts-us {
-  font-style: normal;
-}
+
 .contacts-us .link {
   color: #434455;
   font-weight: 400;
@@ -364,6 +362,7 @@ ul {
 }
 .portfolio-item:hover .overlay {
   transform: translateY(0);
+  cursor: pointer;
 }
 .social-links .soc-link:hover,
 .social-links .soc-link:focus {
